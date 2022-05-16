@@ -5,7 +5,7 @@
 ### To make a window, you type `<name of window> = Window()`
 
 ### Colors
-### Colors are RGB values that can be used on certain widgets shown below:
+### Colors are RGB values that can be used on certain widgets to change the color of the text shown below:
 - ### Label
 - ### Checkbox
 - ### Textbox
