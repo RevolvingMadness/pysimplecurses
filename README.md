@@ -28,8 +28,8 @@
 - #### Light Gray
 
 ### Or optionally you can use RGB values like this:
-- #### (R, G, B)
-- #### [R, G, B]
+- ### (R, G, B) (Tuple)
+- ### [R, G, B] (List)
 
 ## Widgets
 - ### Label
