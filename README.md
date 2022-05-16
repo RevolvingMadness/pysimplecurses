@@ -6,13 +6,13 @@
 
 ### Colors
 ### Colors are RGB values that can be used on certain widgets to change the color of the text shown below:
-- ### Label
-- ### Checkbox
-- ### Textbox
-- ### Box
-- ### Button
-- ### MultipleSelection
-- ### OneSelection
+- #### Label
+- #### Checkbox
+- #### Textbox
+- #### Box
+- #### Button
+- #### MultipleSelection
+- #### OneSelection
 
 ### The built in colors are:
 - #### Red
