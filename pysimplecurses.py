@@ -53,7 +53,7 @@ if os.name == 'nt':
 def cprint(text='', r=255, g=255, b=255, end='\n'):
     print("\033[38;2;{};{};{}m{}\033[38;2;255;255;255m".format(r, g, b, text), end=end)
 
-### WIDGETS ###
+### MAIN WINDOW ###
 
 class Window:
     def __init__(self):
@@ -171,6 +171,8 @@ class Window:
             widget.update(key)
         self.currkey = None
 
+### WIDGETS ###
+        
 class Label:
     def __init__(self, x, y, text, color=COLOR_WHITE):
         self.win = None
