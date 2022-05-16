@@ -251,7 +251,7 @@ class Textbox:
         self.win.addstr(self.x, self.y, self.name + self.value if not self.ispassword else self.name + '*'*len(self.value))
         self.win.color(COLOR_WHITE)
 
-class Box:
+class Rect:
     def __init__(self, x, y, width, height, color=COLOR_WHITE, solid=False):
         self.win = None
         self.x = x
@@ -290,13 +290,13 @@ class Box:
         self.win.color(COLOR_WHITE)
 
 class Button:
-    def __init__(self, x, y, text, on_click=None, color=COLOR_WHITE):
+    def __init__(self, x, y, text, onclick=None, color=COLOR_WHITE):
         self.win = None
         self.x = x
         self.y = y
         self.value = '[' + text + ']'
         self.selectable = True
-        self.on_click = on_click
+        self.on_click = onclick
         self.color = color
 
     def update(self, key=''):
