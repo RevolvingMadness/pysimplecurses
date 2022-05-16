@@ -4,7 +4,7 @@
 ## Main Window
 ### To make a window, you type `<name of window> = Window()`
 ### You also need to make a main loop by doing `while 1:`</br>
-### <name of window>.refresh()`
+### `<name of window>.refresh()`
 
 ## Colors
 ### Colors are RGB values that can be used on certain widgets to change the color of the text shown below:
