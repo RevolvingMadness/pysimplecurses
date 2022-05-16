@@ -4,9 +4,9 @@
 ## Main Window
 ### To make a window, you type `<name of window> = Window()`
 ### You also need to make a main loop by doing `while 1:`</br>
-###                                            `	<name of window>.refresh()`
+### <name of window>.refresh()`
 
-### Colors
+## Colors
 ### Colors are RGB values that can be used on certain widgets to change the color of the text shown below:
 - #### Label
 - #### Checkbox
@@ -34,13 +34,13 @@
 - ### [R, G, B] (List)
 
 ## Widgets
-- ### Label
+- # Label
 ### A label is a widget that adds text onto the screen
 ### Optional arguments:
 - ### color - Chooses the color of the text
 ### Usage: `<name of window>.add(Label(x, y, text, color=<color>))`
 
-- ### Checkbox
+- # Checkbox
 ### A checkbox is a widget that has 2 states, on and off
 ### Optional arguments:
 - #### state - Chooses the state of the checkbox (default=False)
@@ -49,7 +49,7 @@
 
 ### Usage: `<name of window>.add(Checkbox(x, y, text, state, color, side))`
 
-- ### Textbox
+- # Textbox
 ### A textbox that is like input() and will get the users input
 ### Optional arguments:
 - #### color       - Chooses the color of the checkbox (default=COLOR_WHITE)
@@ -58,15 +58,15 @@
 
 ### Usage: `<name of window>.add(Textbox(x, y, name, color, maxlength, ispassword))`
 
-- ### Rect
-### A box draws a rectangle to the screen
+- # Rect
+### A rect draws a rectangle to the screen
 ### Optional arguments:
-- #### color       - Chooses the color of the box (default=COLOR_WHITE)
-- #### solid       - Chooses if the box is solid (default=False)
+- #### color       - Chooses the color of the rect (default=COLOR_WHITE)
+- #### solid       - Chooses if the rect is solid (default=False)
 
 ### Usage: `<name of window>.add(Rect(x, y, width, height, color, solid))`
 
-- ### Button
+- # Button
 ### A button is a widget that when you press space it will run the function that it is givin
 ### Optional arguments:
 - #### onclick     - When you press the space bar it will run the function that it is givin (default=None)
@@ -74,21 +74,21 @@
 
 ### Usage: `<name of window>.add(Button(x, y, width, height, onclick, color))`
 
-- ### MultipleSelection
+- # MultipleSelection
 ### A multipleselection widget that has items and you can select multiple of them
 ### Optional Arguments:
 - #### color       - Chooses the color of the highlighted item (defualt=COLOR_DARK_GRAY)
 
 ### Usage: `<name of window>.add(MultipleSelection(x, y, items, color))`
 
-- ### OneSelection
+- # OneSelection
 ### A oneselection widget that has items and you can only select one item
 ### Optional arguments:
 - #### color       - Chooses the color of the highlighted item (default=COLOR_DARK_GRAY)
 
 ### Usage: `<name of window>.add(OneSelection(x, y, items, color))`
 
-- ### Frame
+- # Frame
 ### A frame is a widget that acts like a window except it is a window with a border and a title
 ### Optional arguments:
 - #### None
