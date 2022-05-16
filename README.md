@@ -3,6 +3,8 @@
 
 ## Main Window
 ### To make a window, you type `<name of window> = Window()`
+### You also need to make a main loop by doing `while 1:`</br>
+###                                            `	<name of window>.refresh()`
 
 ### Colors
 ### Colors are RGB values that can be used on certain widgets to change the color of the text shown below:
@@ -71,3 +73,24 @@
 - #### color       - Chooses the color of the button (default=COLOR_WHITE)
 
 ### Usage: `<name of window>.add(Button(x, y, width, height, onclick, color))`
+
+- ### MultipleSelection
+### A multipleselection widget that has items and you can select multiple of them
+### Optional Arguments:
+- #### color       - Chooses the color of the highlighted item (defualt=COLOR_DARK_GRAY)
+
+### Usage: `<name of window>.add(MultipleSelection(x, y, items, color))`
+
+- ### OneSelection
+### A oneselection widget that has items and you can only select one item
+### Optional arguments:
+- #### color       - Chooses the color of the highlighted item (default=COLOR_DARK_GRAY)
+
+### Usage: `<name of window>.add(OneSelection(x, y, items, color))`
+
+- ### Frame
+### A frame is a widget that acts like a window except it is a window with a border and a title
+### Optional arguments:
+- #### None
+
+### Usage: `<name of window>.add(Frame(x, y, width, height, title))`
