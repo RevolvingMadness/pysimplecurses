@@ -100,5 +100,5 @@ while 1:
 ### Usage: `<name of window>.add(Frame(x, y, width, height, title))`<br></br>
 
 - # Authors notes
-#### I Didn't know what to name MultipleSelection and OneSelection
-#### `<name of window>` is the name of the window variable
+- #### I Didn't know what to name MultipleSelection and OneSelection
+- #### `<name of window>` is the name of the window variable
