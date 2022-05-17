@@ -102,3 +102,4 @@ while 1:
 # Authors notes
 - #### I Didn't know what to name MultipleSelection and OneSelection
 - #### `<name of window>` is the name of the window variable
+- #### On windows, pysimplecurses.py may trigger windows defender
