@@ -392,7 +392,7 @@ class Frame:
         self.selectable = False
 
     def update(self, key=None):
-        self.win.add(Box(self.x, self.y, self.w, self.h))
+        self.win.add(Rect(self.x, self.y, self.w, self.h))
         self.win.add(Label(self.x+3, self.y, ' ' + self.t + ' '))
 
     def add(self, w):
