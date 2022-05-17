@@ -53,7 +53,7 @@ while 1:
 
 ### Usage: `<name of window>.add(Checkbox(x, y, text, state, color, side))`<br></br>
 
-- ### Textbox
+- # Textbox
 ### A textbox that is like input() and will get the users input
 ### Optional arguments:
 - ### color       - Chooses the color of the checkbox (default=COLOR_WHITE)
