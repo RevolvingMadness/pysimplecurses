@@ -181,7 +181,7 @@ class Label:
         self.color = color
 
     def update(self, key=''):
-        self.win.color(self.color if self.selected else COLOR_LIGHT_GRAY)
+        self.win.color(self.color)
         self.win.addstr(self.x, self.y, self.value)
         self.win.color(COLOR_WHITE)
 
